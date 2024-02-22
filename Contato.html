@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Template - Utilizar como modelo</title>
+        <link rel="stylesheet" href="base.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        />
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="menu">
+                <!-- Aqui vai o seu menu -->
+                <ul>
+                    <li>
+                        <a href="Página Principal.html">Página Principal</a>
+                    </li>
+                    <br />
+                    <li><a href="Sobre a clínica.html">Sobre a Clínica</a></li>
+                    <br />
+                    <li>
+                        <a href="Horário de Atendimento.html"
+                            >Horário de Atendimento</a
+                        >
+                    </li>
+                    <br />
+                    <li><a href="Contato.html">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="main">
+                <div class="header">
+                    <img src="header 4.jpg" width="986" height="150" />
+                </div>
+
+                <div class="content">
+                    <center>
+                        <h1>Contato</h1>
+                    </center>
+
+                    <p>
+                        <i class="fa-brands fa-whatsapp"> </i>
+                        <b>Telefone/Whatsapp:</b> (11) 3333-4444
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <b>Endereço da clínica:</b> Rua das Flores, 123 -
+                        Centro, São Paulo - SP
+                    </p>
+                    <br />
+
+                    <center>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467688.89495119266!2d-46.5952992!3d-23.6824124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1708606078407!5m2!1spt-BR!2sbr"
+                            width="600"
+                            height="450"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </center>
+
+                    <br />
+                    <center>
+                        <h2>Formulário para contato</h2>
+                    </center>
+
+                    <form
+                        name="contato"
+                        autocomplete="off"
+                        onsubmit="alert('Formulário enviado com sucesso!')"
+                        action="#"
+                        method="post"
+                        target="_blank"
+                    >
+                        Nome: <input type="text" name="name" /><br />
+                        <br />
+                        E-mail: <input type="email" name="email" /><br />
+                        <br />
+                        Assunto: <input type="text" name="subject" /><br />
+                        <br />
+                        <label>Mensagem:</label>
+                        <br />
+                        <textarea
+                            name="message"
+                            id=""
+                            cols="50"
+                            rows="5"
+                        ></textarea>
+                        <br />
+                        <br />
+
+                        <button class="button1" type="submit">Enviar</button>
+                        <button class="button3" type="submit">Apagar</button>
+                    </form>
+                </div>
+
+                <div class="footer">
+                    <center>
+                        <h3>Informações de Contato:</h3>
+                    </center>
+
+                    <ul>
+                        <li>
+                            <strong> Endereço:</strong> Rua das Flores, 123 -
+                            Centro, São Paulo - SP
+                        </li>
+                        <li><strong> Telefone:</strong> (11) 3333-4444</li>
+                        <li>
+                            <strong>E-mail:</strong> clinicavida@hotmail.com
+                        </li>
+                        <li>
+                            <strong>Horário de funcionamento:</strong> Segunda a
+                            sexta-feira, das 8h às 18h
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
